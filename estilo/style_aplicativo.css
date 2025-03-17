@@ -150,8 +150,9 @@ main h1 {
     opacity: 0;
 }
 
-iframe {
+video {
     width: 340px;
+    margin-bottom: 50px;
 }
 
 div.modulo {
