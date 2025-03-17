@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --cor0:#ebe5c5;
+    --cor1:#1C5A94;
+    --cor2:#032c53;
+    --cor3:#01012d;
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes animacao {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animarcontent {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+body, html {
+    background-color: black;
+    height: 700px;
+}
+
+header {
+    background-color: black;
+}
+
+header p {
+    max-width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin: auto;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+header img {
+    max-width: 100%;
+
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 72px;
+}
+
+main p {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+
+main h1 {
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.353);
+    padding: 20px 0px 0px 0px
+}
+
+div.modulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(218, 3, 3, 0.977);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline overline;
+    padding-top: 150px;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+
+
+div.materiais {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+    height: 150px;
+    width: 350px;
+    margin: 100px auto 0px;
+    border-left: 2px solid var(--cor1);
+    border-right: 2px solid var(--cor1);
+    border-radius: 20px;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+#card-amb {
+    width: 320px;
+}
+
+#card-bi {
+    height: 80px;
+    width: 230px;
+}
+
+#card-document {
+    height: 180px;
+    width: 340px;
+    }
+
+#card-esus {
+    height: 130px;
+    width: 300px;
+}
+
+#card-imunizacao {
+    height: 80px;
+    width: 230px;
+}
+
+#card-seguranca {
+    height: 80px;
+    width: 260px;
+}
+
+#card-servico {
+    height: 80px;
+    width: 240px;
+}
+
+#card-tablet {
+    height: 130px;
+    width: 310px;
+}
+
+#content-amb {
+    padding-top: 13px;
+    padding-left: 3px;
+}
+
+#contentbi {
+    padding-top: 10px;
+    margin-top: 120px;
+}
+
+#document-item {
+    padding-bottom: 25px;
+}
+
+#content-documentos {
+    padding-top: 7px;
+
+    & p {
+        margin-bottom: 15px;
+    }
+
+    & #p-document {
+        margin-bottom: 32px;
+    }
+}
+
+#content-esus {
+    padding-top: 6px;
+
+    & p {
+        margin-bottom: 12px;
+    }
+
+    & #p-esus {
+        padding-bottom: 25px;
+    }
+}
+
+#content-imunizacao {
+    padding-top: 15px;
+}
+
+#content-pe {
+    padding-top: 8px;
+
+    & p {
+        margin-bottom: 12px;
+    }
+}
+
+#content-seguranca {
+    padding-top: 17px;
+}
+
+#content-tablet {
+    padding-top: 8px;
+    
+    & p {
+        margin-bottom: 15px;
+    }
+}
+
+div.materiais p {
+    color: rgba(218, 3, 3, 0.977);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div.materiais a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    transition: .5s;
+    position: absolute;
+    transform: translateX(10px);
+
+    & span.content-amb {
+        padding-left: 21px;
+    }
+}
+
+.materiais span.list {
+    padding-right: 10px;
+    color: rgba(218, 3, 3, 0.977);
+}
+
+
+.materiais a:hover {
+    color: rgba(218, 3, 3, 0.977);
+    transition: .3s;
+
+    & span.list {
+        color: white;
+        transition: .3s;
+    }
+}
+
+
+div.modulos p {
+    background-color: rgb (0, 0, 0, 0);
+    border: none;
+    padding-top: 150px;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+div.modulos a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    color: rgba(218, 3, 3, 0.977);
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+div.modulos a:hover {
+    color: rgba(218, 3, 3, 0.977);
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+
+    & p {
+        max-width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto;
+        border-top: 1px solid white;
+    }
+
+    & a {
+            font-family: var(--fonte1);
+            color: white;
+            text-decoration: none;
+        }
+    }
