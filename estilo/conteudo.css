@@ -147,12 +147,13 @@ div.materiais {
     opacity: 0;
 
     & h4{
-        font-family: var(--fonte2);
-        font-size: 2em;
-        font-weight: 300;
+        font-family: var(--fonte1);
+        font-size: 1.8em;
+        font-style: italic;
+        font-weight: 600;
         color: rgba(218, 3, 3, 0.977);
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     & li{
         text-align: left;
