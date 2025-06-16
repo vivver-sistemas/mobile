@@ -163,7 +163,7 @@ div.materiais {
         margin-left: 55px;
     }
     & img{
-        width: 20px;
+        max-width: 20px;
         position: absolute;
         margin-left: 20px;
     }
