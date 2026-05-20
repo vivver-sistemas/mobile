@@ -55,4 +55,5 @@ form {
     border-radius: 1px;
     outline: none;
     font-weight: bold;
+    background: transparent;
 }
